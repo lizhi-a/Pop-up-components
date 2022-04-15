@@ -1,0 +1,126 @@
+.project_form {
+  position: relative;
+  width: 440px;
+  min-height: 360px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, .15);
+
+  .info,
+  .info:hover {
+    outline: none;
+  }
+
+  .header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+
+    .label {
+      margin: 10px;
+      color: #000000d9;
+      font-weight: 500;
+      font-size: 16px;
+      word-wrap: break-word;
+    }
+
+    #close_dialog {
+      position: absolute;
+      right: 0px;
+      margin-right: 10px;
+      color: #00000073;
+      cursor: pointer;
+    }
+
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    color: #000000d9;
+
+    .content_items {
+      min-height: 50px;
+      display: flex;
+      font-size: 15px;
+
+      .label {
+        width: 110px;
+        height: 50px;
+        line-height: 34px;
+        text-align: right;
+      }
+
+      .info {
+        width: auto;
+        flex: 1;
+        padding: 5px;
+      }
+
+      .info input[type='text'] {
+        width: 310px;
+        height: 25px;
+        display: inline-block;
+        margin-right: 6px;
+        border-width: 1px;
+        border-color: rgba(0, 0, 0, .2);
+        outline: none;
+        font-size: 14px;
+        font-family: 'PingFang SC';
+      }
+
+      .info textarea {
+        width: 310px;
+        height: 100px;
+        padding: 0px;
+        outline: none;
+        border-color: rgba(0, 0, 0, .2);
+        font-size: 14px;
+        font-family: 'PingFang SC';
+      }
+
+      .info_sort {
+        display: inline-block;
+        width: 33%;
+      }
+
+      .hint {
+        font-size: 14px;
+        color: rgb(172, 172, 172);
+      }
+    }
+  }
+
+  .footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #cancelButton,
+    #verifyButton {
+      width: 100px;
+      height: 30px;
+      border-radius: 2px;
+      border: 0px;
+      box-shadow: 0 2px #0000000b;
+      cursor: pointer;
+
+    }
+
+    #cancelButton {
+      border: 1px solid rgba(0, 0, 0, .1);
+      background-color: white;
+      margin-right: 10px;
+    }
+
+    #verifyButton {
+      color: #fff;
+      font-size: 15px;
+      border: 1px solid #40a9ff;
+      background: #1890ff;
+      cursor: pointer;
+    }
+  }
+}

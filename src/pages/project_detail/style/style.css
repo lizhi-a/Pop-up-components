@@ -1,0 +1,108 @@
+.project_form {
+  position: relative;
+  width: 440px;
+  min-height: 360px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.project_form .info,
+.project_form .info:hover {
+  outline: none;
+}
+.project_form .header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.project_form .header .label {
+  margin: 10px;
+  color: #000000d9;
+  font-weight: 500;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+.project_form .header #close_dialog {
+  position: absolute;
+  right: 0px;
+  margin-right: 10px;
+  color: #00000073;
+  cursor: pointer;
+}
+.project_form .content {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  color: #000000d9;
+}
+.project_form .content .content_items {
+  min-height: 50px;
+  display: flex;
+  font-size: 15px;
+}
+.project_form .content .content_items .label {
+  width: 110px;
+  height: 50px;
+  line-height: 34px;
+  text-align: right;
+}
+.project_form .content .content_items .info {
+  width: auto;
+  flex: 1;
+  padding: 5px;
+}
+.project_form .content .content_items .info input[type='text'] {
+  width: 310px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 6px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 14px;
+  font-family: 'PingFang SC';
+}
+.project_form .content .content_items .info textarea {
+  width: 310px;
+  height: 100px;
+  padding: 0px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: 'PingFang SC';
+}
+.project_form .content .content_items .info_sort {
+  display: inline-block;
+  width: 33%;
+}
+.project_form .content .content_items .hint {
+  font-size: 14px;
+  color: #acacac;
+}
+.project_form .footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project_form .footer #cancelButton,
+.project_form .footer #verifyButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  border: 0px;
+  box-shadow: 0 2px #0000000b;
+  cursor: pointer;
+}
+.project_form .footer #cancelButton {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-right: 10px;
+}
+.project_form .footer #verifyButton {
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #40a9ff;
+  background: #1890ff;
+  cursor: pointer;
+}

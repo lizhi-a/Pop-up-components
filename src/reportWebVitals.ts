@@ -1,3 +1,8 @@
+/**
+ * Web Vitals是一组有用的指标，旨在捕捉网页的用户体验。
+ * 在 Create React App 中，使用第三方库来衡量这些指标 ( web-vitals )。
+ */
+
 import { ReportHandler } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {
